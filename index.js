@@ -1,4 +1,4 @@
-const { Client, LocalAuth } = require('whatsapp-web.js');
+const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const axios = require('axios');
 const fs = require('fs');
@@ -55,11 +55,10 @@ client.on('message', async msg => {
   const userId = msg.from;
   const userMsg = msg.body.trim();
 
-  // Skip group messages
-  if (msg.isGroupMsg || msg.fromMe) return;
+  // Skip group messages and status updates
+  if (msg.isGroupMsg || msg.fromMe || !userMsg) return;
 
-  // Optional: Print for debug
-  console.log(`[Message from ${userId}]: ${userMsg}`);
+  console.log(`[From ${userId}]: ${userMsg}`);
 
   // Initialize chat history
   if (!chatHistory[userId]) {
@@ -68,7 +67,7 @@ client.on('message', async msg => {
     ];
   }
 
-  // Append user message
+  // Add user message
   chatHistory[userId].push({ role: 'user', parts: [{ text: userMsg }] });
 
   const payload = { contents: chatHistory[userId] };
@@ -83,22 +82,22 @@ client.on('message', async msg => {
 
     const geminiReply = response.data?.candidates?.[0]?.content?.parts?.[0]?.text || 'Baby, oru doubt aanu 😅';
 
-    // Append AI reply to history
+    // Save Gemini reply
     chatHistory[userId].push({ role: 'model', parts: [{ text: geminiReply }] });
     saveChatHistory();
 
-    // Reply on WhatsApp
-    await msg.reply(geminiReply);
+    // Send a new message (not reply)
+    await client.sendMessage(userId, geminiReply);
 
   } catch (error) {
     console.error('Gemini API error:', error.message || error);
-    await msg.reply('Sorry baby, Gemini AI oru error koduthuu 😓');
+    await client.sendMessage(userId, 'Sorry baby, Gemini AI oru error koduthuu 😓');
   }
 });
 
 client.initialize();
 
-// ====== Minimal HTTP Server ======
+// ====== HTTP Server ======
 const PORT = process.env.PORT || 3000;
 
 http.createServer((req, res) => {
