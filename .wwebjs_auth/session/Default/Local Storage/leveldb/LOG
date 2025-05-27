@@ -1,0 +1,6 @@
+2025/05/27-09:44:26.129 8ea Reusing MANIFEST /workspaces/baby_bot/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
+2025/05/27-09:44:26.130 8ea Recovering log #4
+2025/05/27-09:44:26.242 8ea Reusing old log /workspaces/baby_bot/.wwebjs_auth/session/Default/Local Storage/leveldb/000004.log 
+2025/05/27-10:04:42.107 21ea Level-0 table #8: started
+2025/05/27-10:04:42.110 21ea Level-0 table #8: 12209 bytes OK
+2025/05/27-10:04:42.111 21ea Delete type=0 #4
