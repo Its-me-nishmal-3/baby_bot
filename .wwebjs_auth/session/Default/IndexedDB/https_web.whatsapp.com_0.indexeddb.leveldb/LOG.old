@@ -1,24 +1,3 @@
-2025/06/02-11:48:06.770 1976 Reusing MANIFEST /workspaces/baby_bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/02-11:48:06.770 1976 Recovering log #65
-2025/06/02-11:48:06.800 1976 Reusing old log /workspaces/baby_bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000065.log 
-2025/06/02-11:48:08.458 1980 Level-0 table #71: started
-2025/06/02-11:48:08.466 1980 Level-0 table #71: 168538 bytes OK
-2025/06/02-11:48:08.467 1980 Delete type=0 #65
-2025/06/02-11:48:08.467 1980 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/06/02-11:48:08.469 1980 Level-0 table #73: started
-2025/06/02-11:48:08.471 1980 Level-0 table #73: 445 bytes OK
-2025/06/02-11:48:08.472 1980 Delete type=0 #70
-2025/06/02-11:48:08.472 1980 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x00\x00\x05' @ 153360 : 0
-2025/06/02-11:48:08.472 1980 Compacting 1@0 + 1@1 files
-2025/06/02-11:48:08.482 1980 Generated table #74@0: 4365 keys, 92931 bytes
-2025/06/02-11:48:08.482 1980 Compacted 1@0 + 1@1 files => 92931 bytes
-2025/06/02-11:48:08.483 1980 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/06/02-11:48:08.483 1980 Delete type=2 #73
-2025/06/02-11:48:08.483 1980 Manual compaction at level-0 from '\x00 \x00\x00\x05' @ 153360 : 0 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/06/02-11:48:10.968 1977 Compacting 1@1 + 1@2 files
-2025/06/02-11:48:11.160 1977 Generated table #75@1: 35634 keys, 1456376 bytes
-2025/06/02-11:48:11.160 1977 Compacted 1@1 + 1@2 files => 1456376 bytes
-2025/06/02-11:48:11.162 1977 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/02-11:48:11.162 1977 Delete type=2 #71
-2025/06/02-11:48:11.163 1977 Delete type=2 #68
-2025/06/02-11:48:11.163 1977 Delete type=2 #74
+2025/06/05-15:25:46.583 2f64 Reusing MANIFEST C:\Works\gemini bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/05-15:25:46.584 2f64 Recovering log #125
+2025/06/05-15:25:46.833 2f64 Reusing old log C:\Works\gemini bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000125.log 

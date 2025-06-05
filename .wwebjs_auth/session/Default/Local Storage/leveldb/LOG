@@ -1,3 +1,14 @@
-2025/06/02-11:50:36.934 1ecf Reusing MANIFEST /workspaces/baby_bot/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
-2025/06/02-11:50:36.934 1ecf Recovering log #3
-2025/06/02-11:50:36.934 1ecf Reusing old log /workspaces/baby_bot/.wwebjs_auth/session/Default/Local Storage/leveldb/000003.log 
+2025/06/05-15:25:59.804 3bc8 Reusing MANIFEST C:\Works\gemini bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2025/06/05-15:25:59.805 3bc8 Recovering log #9
+2025/06/05-15:25:59.805 3bc8 Reusing old log C:\Works\gemini bot\.wwebjs_auth\session\Default\Local Storage\leveldb/000009.log 
+2025/06/05-15:36:07.589 2fb4 Level-0 table #13: started
+2025/06/05-15:36:07.606 2fb4 Level-0 table #13: 13170 bytes OK
+2025/06/05-15:36:07.616 2fb4 Delete type=0 #9
+2025/06/05-15:36:07.621 57c8 Compacting 4@0 + 0@1 files
+2025/06/05-15:36:07.641 57c8 Generated table #14@0: 70 keys, 6867 bytes
+2025/06/05-15:36:07.641 57c8 Compacted 4@0 + 0@1 files => 6867 bytes
+2025/06/05-15:36:07.645 57c8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/06/05-15:36:07.646 57c8 Delete type=2 #3
+2025/06/05-15:36:07.646 57c8 Delete type=2 #7
+2025/06/05-15:36:07.646 57c8 Delete type=2 #10
+2025/06/05-15:36:07.646 57c8 Delete type=2 #13

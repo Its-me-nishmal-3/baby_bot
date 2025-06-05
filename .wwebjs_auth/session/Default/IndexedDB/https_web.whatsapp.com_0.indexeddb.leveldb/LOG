@@ -1,24 +1,26 @@
-2025/06/02-11:50:37.441 1ed0 Reusing MANIFEST /workspaces/baby_bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/02-11:50:37.442 1ed0 Recovering log #72
-2025/06/02-11:50:37.458 1ed0 Reusing old log /workspaces/baby_bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000072.log 
-2025/06/02-11:50:39.263 1edf Level-0 table #78: started
-2025/06/02-11:50:39.281 1edf Level-0 table #78: 162371 bytes OK
-2025/06/02-11:50:39.283 1edf Delete type=0 #72
-2025/06/02-11:50:39.284 1edf Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/06/02-11:50:39.285 1edf Level-0 table #80: started
-2025/06/02-11:50:39.287 1edf Level-0 table #80: 455 bytes OK
-2025/06/02-11:50:39.289 1edf Delete type=0 #77
-2025/06/02-11:50:39.290 1edf Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at '\x00"\x00\x00\x05' @ 160768 : 0
-2025/06/02-11:50:39.290 1edf Compacting 1@0 + 1@1 files
-2025/06/02-11:50:39.303 1edf Generated table #81@0: 4257 keys, 90240 bytes
-2025/06/02-11:50:39.304 1edf Compacted 1@0 + 1@1 files => 90240 bytes
-2025/06/02-11:50:39.305 1edf compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/06/02-11:50:39.305 1edf Delete type=2 #80
-2025/06/02-11:50:39.305 1edf Manual compaction at level-0 from '\x00"\x00\x00\x05' @ 160768 : 0 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/06/02-11:50:41.516 1edf Compacting 1@1 + 1@2 files
-2025/06/02-11:50:41.623 1edf Generated table #82@1: 37269 keys, 1510374 bytes
-2025/06/02-11:50:41.623 1edf Compacted 1@1 + 1@2 files => 1510374 bytes
-2025/06/02-11:50:41.627 1edf compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/06/02-11:50:41.627 1edf Delete type=2 #75
-2025/06/02-11:50:41.627 1edf Delete type=2 #81
-2025/06/02-11:50:41.627 1edf Delete type=2 #78
+2025/06/05-15:26:00.349 54a0 Reusing MANIFEST C:\Works\gemini bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/05-15:26:00.350 54a0 Recovering log #125
+2025/06/05-15:26:00.759 54a0 Reusing old log C:\Works\gemini bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000125.log 
+2025/06/05-15:26:02.350 54a0 Level-0 table #131: started
+2025/06/05-15:26:02.391 54a0 Level-0 table #131: 1130541 bytes OK
+2025/06/05-15:26:02.395 54a0 Delete type=0 #125
+2025/06/05-15:26:02.396 54a0 Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/05-15:26:04.883 57c8 Compacting 1@1 + 2@2 files
+2025/06/05-15:26:05.059 57c8 Generated table #132@1: 70523 keys, 2245270 bytes
+2025/06/05-15:26:05.192 57c8 Generated table #133@1: 53602 keys, 1877936 bytes
+2025/06/05-15:26:05.192 57c8 Compacted 1@1 + 2@2 files => 4123206 bytes
+2025/06/05-15:26:05.196 57c8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/06/05-15:26:05.196 57c8 Delete type=2 #127
+2025/06/05-15:26:05.196 57c8 Delete type=2 #128
+2025/06/05-15:26:05.196 57c8 Delete type=2 #131
+2025/06/05-15:43:04.270 2fb4 Level-0 table #135: started
+2025/06/05-15:43:04.377 2fb4 Level-0 table #135: 1289742 bytes OK
+2025/06/05-15:43:04.381 2fb4 Delete type=0 #130
+2025/06/05-15:58:04.293 40c4 Compacting 1@1 + 2@2 files
+2025/06/05-15:58:04.641 40c4 Generated table #136@1: 73570 keys, 2251251 bytes
+2025/06/05-15:58:04.885 40c4 Generated table #137@1: 57303 keys, 2118486 bytes
+2025/06/05-15:58:04.885 40c4 Compacted 1@1 + 2@2 files => 4369737 bytes
+2025/06/05-15:58:04.888 40c4 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/06/05-15:58:04.889 40c4 Delete type=2 #132
+2025/06/05-15:58:04.889 40c4 Delete type=2 #133
+2025/06/05-15:58:04.889 40c4 Delete type=2 #135
